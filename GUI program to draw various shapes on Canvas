@@ -1,0 +1,11 @@
+from tkinter import * 
+top = Tk() 
+top.geometry("200x200") 
+c = Canvas(top, bg="pink", height="200", width=200) 
+line = c.create_line(10, 10, 50, 50, fill="red")  	
+oval = c.create_oval(100, 100, 150, 10, fill="white")  	
+rect = c.create_rectangle(10, 80, 40, 50, fill="white") 
+c.pack() 
+top.mainloop() 
+ 
+ 
